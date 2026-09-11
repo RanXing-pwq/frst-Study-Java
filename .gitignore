@@ -1,0 +1,38 @@
+# ================= 编译产物（每次编译都会重新生成，绝不入库）=================
+out/
+build/
+target/
+bin/
+*.class
+*.jar
+*.war
+
+# ================= IntelliJ IDEA 本地状态 =================
+# 注意：本工程没有用 Maven/Gradle，9 个模块的结构全靠 *.iml + .idea/modules.xml 定义，
+#      所以下面这两个【故意不忽略】——忽略掉的话，别人 clone 下来只剩一堆空文件夹。
+# .idea/modules.xml
+# *.iml
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/
+.idea/dictionaries/
+.idea/usage.statistics.xml
+.idea/tasks.xml
+*.iws
+*.ipr
+*.iml.bak
+
+# ================= 操作系统 =================
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ================= 本地备份 / 压缩包 =================
+_backup/
+*.zip
+*.7z
+
+# ================= 运行日志 =================
+*.log
+hs_err_pid*
+replay_pid*
